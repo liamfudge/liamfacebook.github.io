@@ -1,0 +1,216 @@
+body {
+	
+}
+
+.content {
+	background: linear-gradient(RGBA(44, 71, 130, 0.8), RGBA(33, 73, 130, 1));
+	width: 100%;
+	height: 70px;
+}
+
+.longheader {
+	max-width: 1000px;
+	height: 100%;
+	margin: auto;
+}
+
+h1 {
+	display: flex;
+	align-items: center;
+	color: white;
+	font-size: 2.2em;
+	padding-bottom: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: .9em;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.fbheader {
+	width: 100%;
+	display: flex;
+	height: 70px;
+}
+
+.leftheader {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.mainText {
+	 height: 70px;
+}
+
+.fb-br {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.btn-primary {
+	background: RGBA(10, 97, 210, 0.2);
+	border: 1px solid RGBA(33, 73, 130, 1);
+	height: 22px;
+	font-size: .8em;
+	padding: 4px;
+	padding: 0px 2px;
+	border-radius: 0;
+}
+
+.btn-primary:hover {
+	background: RGBA(44, 71, 130, .6);
+	border: 1px solid RGBA(33, 73, 130, 1);
+}
+
+.usernamesize {
+	display: flex;
+	align-items: center;
+	
+}
+
+.username-input {
+	font-size: .8em;
+	width: 130px;
+	height: 22px;
+	border: 1px solid RGBA(84, 71, 130, 1);
+	box-shadow: 2px 2px RGBA(10, 97, 210, 0.4);
+}
+.username-input-double {
+	font-size: 1em;
+	width: 100%;
+	height: 30px;
+	margin: 3px 0px;
+	opacity: .7;
+}
+.username-input-half {
+	font-size: 1em;
+	width: 44%;
+	height: 30px;
+	margin: 3px 0px;
+	opacity: .7;
+}
+.gap {
+	padding: 5px;
+}
+
+.thumbsUp {
+	display: flex;
+	justify-content: left;
+}
+
+.box1 {
+	background-color: white;
+	width: 100%;
+	height: 200px;
+}
+
+.backgroundgradient {
+	height: 550px;
+	background: linear-gradient(RGBA(44, 71, 130, 0), RGBA(33, 73, 130, .2));
+}
+
+.hpleft {
+	height: 600px;
+}
+
+.hpright {
+	height: 600px;
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3em;
+	color: RGBA(44, 71, 130, 1);
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	color: RGBA(44, 71, 130, 1);
+}
+
+.container2 {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.topspacing {
+	display: flex;
+	height: 27px;
+}
+
+.topspacing2 {
+	display: flex;
+	height: 17px;
+}
+
+.h3box {
+	display: flex;
+	align-content: center;
+}
+
+.imagebox {
+	max-width: 100%;
+}
+
+.newaccountbox {
+	/*border: 2px solid red;*/
+	padding: 15px 0px;
+}
+
+.malefemale {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 36px; 
+
+}
+
+h6 {
+	font-family: 'Roboto', sans-serif;
+	font-size: .7em;
+	color: RGBA(44, 71, 130, 1);
+}
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: .8em;
+	color: RGBA(44, 71, 130, 1);
+}
+
+.btn-success {
+	width: 180px;
+	background: linear-gradient(RGBA(120, 200, 50, 1), RGBA(80, 149, 50, 1));
+	border: .5px solid darkgreen;
+}
+.btn-success:hover {
+	width: 180px;
+	background: linear-gradient(RGBA(120, 200, 50, .7), RGBA(80, 149, 50, 1));
+	border: .5px solid darkgreen;
+}
+
+.birthday {
+	font-size: 1em;
+	opacity: .6;
+	height: 30px;
+	margin: 3px 0px;
+}
+.newsfeedbackground {
+	background-color: RGBA(44, 71, 130, .11);
+	height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+

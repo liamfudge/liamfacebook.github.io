@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="stylenewsfeed.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+	<div class="content">
+		<div class="longheader">
+			<div class="container">
+				<div class="row">
+					<!-- <div class="thumbsUp">
+						<img src="meadia/Facebook_like.png" width="30" height="30">
+					</div> -->
+						
+
+
+					<div class="fbheader">
+
+						<div class="leftheader usernamesize">
+							<img src="meadia/fbheadericon1.png" class="headericon">
+							<input class="searchbox" id="inputusername" type="text" name="username" placeholder="Search">
+						</div>
+
+						<div class="fb-br"></div>
+							<div class="usernamesize">
+								<!-- <img src="meadia/squareimgtest.png" class="headerprofilepic"> -->
+								<input id="userButton" class="btn btn-primary btn-lg" type="submit" name="login" value="Tajre" >
+								<div class="gap"></div>
+								<input class="btn btn-primary btn-lg" type="submit" name="login" value="Home" onclick="Homepage()">
+								<div class="gap"></div>
+								<a href="#"><img src="meadia/friend-request.png" class="headericons"></a>
+								<a href="#"><img src="meadia/messenger-icon.png" class="headericons"></a>
+								<a href="#"><img src="meadia/bell_icon.png" class="headericons"></a>
+								<div class="gap"></div>
+								<a href="#"><img src="meadia/settings-icon.png" class="headericons"></a>
+							</div>
+						</div>
+
+						<div>
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="newsfeedbackground">
+			<div >
+				<div class="container2">
+					<div class="row">
+						<div class="hpleft col-lg-2"></div>
+
+
+
+
+						<!-- news box main -->
+						<div class="col-lg-7">
+							
+							<div class="newsboxmain" id="statusInputBox">
+
+								<div class="statusboxheader">
+									<div class="row">
+										<img class="profilepicture2">
+										<!-- <div class="poststatus"> -->
+											<input class="statusbox" id="statusbox" type="text" size="28" placeholder="What's on your mind?">
+
+										<!-- </div> -->
+									</div>
+								</div>
+
+								<div class="newsboxtext">
+									<input class="imgurlbox" id="imageurl" type="text" size="50" placeholder="Paste an image url here">
+								</div>
+
+								<div class="gap2"></div>
+
+								<div class="linebreak"></div>
+
+								<div class="newsboxfooter">
+									<div class="row">
+										<div class="likecomment"><p class="greytext" onclick="testbutton()">Post</p></div>
+										
+									</div>
+								</div>
+							</div>
+
+							<div id="div123"></div>
+							
+							<!-- news box header -->
+							<div class="newsboxmain">
+
+								<div class="newsboxheader">
+									<div class="row">
+										<img src="meadia/treysongz.jpg" class="profilepicture">
+										<div class="newsboxname">
+											<h3><a href="#"><strong>Liam Fudge</strong></a></h3>
+											<h6>5 hrs</h6>
+										</div>
+									</div>
+								</div>
+
+								<div class="newsboxtext">
+									<p>This is a random picture</p>
+								</div>
+
+								<div class="newsboximg">
+									<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/K2%2C_Mount_Godwin_Austen%2C_Chogori%2C_Savage_Mountain.jpg" class="imgwidth">
+								</div>
+
+								<div class="newsboxheader">
+									<div class="likedisplay">
+										<div class="row">
+											<img src="meadia/Like_button.svg.png" class="likeicon">
+											<div class="verticalcenter"><h6>12k</h6></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="linebreak"></div>
+
+								<div class="newsboxfooter">
+									<div class="row">
+										<div class="likecomment"><img src="meadia/facebook-like-grey.png" class="likeicongrey"><p class="greytext">Like</p></div>
+										<div class="likecomment"><img src="meadia/facebook-comment.png" class="commenticongrey"><p class="greytext">Comment</p></div>
+										<div class="likecomment"><img src="meadia/facebook-share.png" class="shareicongrey"><p class="greytext">Share</p></div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="newsboxmain">
+
+								<div class="newsboxheader">
+									<div class="row">
+										<img src="meadia/treysongz.jpg" class="profilepicture">
+										<div class="newsboxname">
+											<h3><a href="#"><strong>Liam Fudge</strong></a></h3>
+											<h6>5 hrs</h6>
+										</div>
+									</div>
+								</div>
+
+								<div class="newsboxtext">
+									<p>This is a cool picture</p>
+								</div>
+
+								<div class="newsboximg">
+									<img src="meadia/mountain_at_sunset.jpeg" class="imgwidth">
+								</div>
+
+								<div class="newsboxheader">
+									<div class="likedisplay">
+										<div class="row">
+											<img src="meadia/Like_button.svg.png" class="likeicon">
+											<div class="verticalcenter"><h6>12k</h6></div>
+										</div>
+									</div>
+								</div>
+
+								<div class="linebreak"></div>
+
+								<div class="newsboxfooter">
+									<div class="row">
+										<div class="likecomment"><img src="meadia/facebook-like-grey.png" class="likeicongrey"><p class="greytext">Like</p></div>
+										<div class="likecomment"><img src="meadia/facebook-comment.png" class="commenticongrey"><p class="greytext">Comment</p></div>
+										<div class="likecomment"><img src="meadia/facebook-share.png" class="shareicongrey"><p class="greytext">Share</p></div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+
+
+						<div class="hpright col-lg-3">
+
+							<div class="liveboxmain">
+
+								<div class="newsboxtext"><p>Stories</p></div>
+
+								<div class="gap2"></div>
+
+								<div class="liveboxheader">
+									<div class="row">
+										<img src="meadia/treysongz.jpg" class="livepicture">
+										<div class="newsboxname">
+											<h3 id="storyusername"><a href="#"><strong></strong></a></h3>
+											<h6>Share a photo or</h6>
+										</div>
+									</div>
+								</div>
+
+								<div class="gap2"></div>
+
+								<div class="liveboxheader">
+									<div class="row">
+										<img src="meadia/harry_potter.jpg" class="livepicture">
+										<div class="newsboxname">
+											<h3><a href="#"><strong>Harry Potter</strong></a></h3>
+											<h6>4 hours ago</h6>
+										</div>
+									</div>
+								</div>
+
+								<div class="gap2"></div>
+
+								<div class="liveboxheader">
+									<div class="row">
+										<img src="meadia/ron_weasley.jpg" class="livepicture">
+										<div class="newsboxname">
+											<h3><a href="#"><strong>Ron Weasley</strong></a></h3>
+											<h6>11 hours ago</h6>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- <script type="text/javascript" src="script.js"></script> -->
+	<script type="text/javascript" src="newsfeedscript.js"></script>
+	
+</body>
+</html>
